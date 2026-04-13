@@ -1,0 +1,25 @@
+{
+  "name": "fake-data-br",
+  "version": "1.0.0",
+  "description": "Gera dados brasileiros falsos para testes: nomes, CPF, CNPJ, telefones, CEP e enderecos.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fake",
+    "faker",
+    "brasil",
+    "cpf",
+    "cnpj",
+    "test"
+  ],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
